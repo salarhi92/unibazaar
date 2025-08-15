@@ -12,7 +12,11 @@ group_message_map = {
     "crypto_groups": {
         "groups": [
             "advertisement_N",
-            "iranianghebres"
+            "DoublyCommunityRU",
+"DoublyCommunityBR",
+"DoublyCommunityID",
+"DoublyCommunityES",
+"DoublyCommunityIR"
         ],
         "messages": [
             """⚡️🔥 The Key to True Magic is in Your Hands! 🔥⚡️
@@ -23,7 +27,23 @@ group_message_map = {
 🌍 Worldwide secure shipping
 🎁 Beautiful, gift-ready packaging
 
-Take the first step now 👉 https://unibazaar.shop"""
+Take the first step now 👉 https://unibazaar.shop""",
+            """💎✨  Spells & Stones — Perfect Energy Harmony ✨💎
+
+🔮 Experience the Power of Ritual-Charged Crystals & Expertly Crafted Spells 🔮
+Each item is cleansed, energized, and charged to support your highest goals and spiritual growth.
+Witness transformative energy and manifest miracles in your daily life.
+
+🌐 Shop easily at https://unibazaar.shop
+📥 DM for custom requests or personalized magic kits""",
+            """🌟🔮  Live the Magic with UniBazaar 🔮🌟
+
+💫 From Ancient Wisdom to Modern Mysticism, All Made for You 💫
+Empowering stones and tailored spells created with love and care to open the doors to success, love, and protection.
+✨ Feel the real magic flow through your life — and watch your dreams manifest!
+
+🛒 Order now at https://unibazaar.shop
+📩 Message us for exclusive deals and personalized guidance!"""
         ]
     }
 }
@@ -63,4 +83,5 @@ async def main_loop():
         await asyncio.sleep(700)
 
 if __name__ == '__main__':
+
     client.loop.run_until_complete(main_loop())
