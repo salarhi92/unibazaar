@@ -6,7 +6,7 @@ import os
 
 api_id = 28003957
 api_hash = '7f6d4eec65cbdbf02d201f7c39bf7ec9'
-session_file = 'flash_session.session'  # فایل سشن باید وجود داشته باشه
+session_file = 'unibazaar_session.session'  # فایل سشن باید وجود داشته باشه
 
 group_message_map = {
     "crypto_groups": {
@@ -85,3 +85,4 @@ async def main_loop():
 if __name__ == '__main__':
 
     client.loop.run_until_complete(main_loop())
+
